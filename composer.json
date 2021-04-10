@@ -1,33 +1,38 @@
 {
-  "name": "niladmi/lab8",
-  "description": "lab10",
+  "name": "niladm1rari/lab10",
+  "description": "project",
   "type": "project",
   "license": "-",
   "authors": [
     {
       "name": "NilAdm1rari",
-      "email": "morroz.max@gmail.com"
+	  "email": "morroz.max@gmail.com"
     }
   ],
+  
 
   "minimum-stability": "dev",
-  "scripts": {
-	"post-install-cmd": [
+
+	"scripts": {
+    "post-install-cmd": [
         "git symbolic-ref --short -q HEAD>version"
     ]
   },
-
+  
   "require": {
-    "niladm1rari/lab10df": "^2.0"
+    "niladm1rari/lab10df": "3.0"
   },
+
   "repositories": [
     {
       "type": "git",
       "url": "https://github.com/rok9ru/trpo-core"
     },
-	{
+    {
       "type": "git",
       "url": "https://github.com/NilAdm1rari/lab10df.git"
     }
-	]
+  ]
+  
 }
+
