@@ -11,6 +11,11 @@
   ],
 
   "minimum-stability": "dev",
+  "scripts": {
+	"post-install-cmd": [
+        "git symbolic-ref --short -q HEAD>version"
+    ]
+  },
 
   "require": {
     "niladm1rari/lab10df": "^2.0"
